@@ -18,13 +18,16 @@
             <input type="radio" name="horario" value="manhã">Manhã
             <input type="radio" name="horario" value="tarde">Tarde
             <input type="radio" name="horario" value="noite">Noite<br />
-            <textarea cols="50" rows=10></textarea><br />
-            <input list="cidade" name="cidade">
+            <textarea name="mensagem" cols="50" rows=10></textarea><br />
+            Cidade <input list="cidade" name="cidade">
             <datalist id="cidade">
                 <option value="Teresina">Teresina</option>
                 <option value="Parnaiba">Parnaiba</option>
                 <option value="Picos">Picos</option>
-            </select>
+            </datalist><br />
+            <button type="button">Outra ação</button>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
             
         </form>
     </body>
