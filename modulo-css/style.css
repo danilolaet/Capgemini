@@ -1,0 +1,28 @@
+h2{
+    color:green;
+}
+p{
+    color:rgb(15, 15, 104);
+}
+.titulo{
+    text-decoration: underline;
+}
+.texto-azul{
+    color:rgb(45, 45, 73);
+}
+.texto-vermelho{
+    color:red;
+}
+.texto-vermelho .comentário{
+    color:chocolate
+}
+.comentário{
+    color:aqua;
+}
+#titulo-navegação-principal{
+    color:brown;
+}
+#titulo-cursos-realizados{
+    color:blueviolet;
+}
+
