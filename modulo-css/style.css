@@ -18,6 +18,7 @@ h2{
 }
 p{
     color:rgb(15, 15, 104);
+    text-indent: 2rem;
 }
 .titulo{
     text-decoration: underline;
@@ -37,6 +38,8 @@ p{
 }
 #titulo-navegação-principal{
     color:brown;
+    letter-spacing: 0.1rem;
+
 }
 #titulo-cursos-realizados{
     color:blueviolet;
