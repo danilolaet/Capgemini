@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Seletor id</title>
+    <!--JS-->
+    <script>
+        function ExibirConteudo(){
+            var campo=document.getElementById("campo");
+            alert(campo.value);
+            campo.value="";
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="campo">
+    <button onclick="ExibirConteudo()">Clique aqui</button>
+</body>
+</html>
