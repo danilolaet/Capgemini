@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Evento de teclado</title>
+    <!--JS-->
+    <script>
+        function exibir(){
+            var campo=document.getElementById("campo").value;
+            alert(campo)
+        }
+
+        function exibir2(){
+            var campo2=document.getElementById("campo2").value;
+            alert(campo2)
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="campo" onkeyup="exibir()">
+    <input type="text" id="campo2" onkeydown="exibir2()">
+</body>
+</html>
