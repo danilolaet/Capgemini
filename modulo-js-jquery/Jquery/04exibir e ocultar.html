@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Exibir e ocultar</title>
+    <!--JS-->
+    <script src="jquery-3.7.1.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#exibir").click(function(){
+                $("img").show();
+            })
+
+            $("#ocultar").click(function(){
+                $("img").hide();
+            })
+        })
+    </script>
+</head>
+<body>
+    <button id="exibir">exibir</button>
+    <button id="ocultar">ocultar</button>
+    <br />
+    <img src="logo_proway.png">
+</body>
+</html>
