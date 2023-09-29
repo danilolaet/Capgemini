@@ -1,0 +1,35 @@
+<div>
+    <label for="nome">Nome:</label>
+    <input id="nome" [(ngModel)]="novoAluno.nome" />
+  </div>
+  <div>
+    <label for="nota1">Primeira Nota:</label>
+    <input type="number" id="nota1" [(ngModel)]="novoAluno.Nota1" />
+  </div>
+  <div>
+    <label for="nota2">Segunda Nota:</label>
+    <input type="number" id="nota2" [(ngModel)]="novoAluno.Nota2" />
+  </div>
+  <button (click)="adicionarAluno()">Adicionar Aluno</button>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Média</th>
+        <th>Condição</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let aluno of alunos; let i = index">
+        <td>{{ aluno.nome }}</td>
+        <td>{{ aluno.media }}</td>
+        <td>{{ aluno.situacao }}</td>
+        <td>
+          <button (click)="excluirAluno(i)">Excluir</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
