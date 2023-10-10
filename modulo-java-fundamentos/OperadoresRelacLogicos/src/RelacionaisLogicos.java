@@ -29,5 +29,23 @@ public class RelacionaisLogicos {
         if (num1 < num2) {
             System.out.println("O numero 1 é menor que o numero 2");
         }
+
+        //&& e ||
+        num1 = 10;
+        num2 = 20;
+        int num3 = 10;
+        int num4 = 30;
+
+        if ((num1 == num3) && (num2 > num4)) {
+            System.out.println("Primeira opção satisfeita");
+        }   else {
+                System.out.println("Segunda opção satisfeita");
+        }
+
+        if ((num1 == num3) || (num2 > num4)) {
+            System.out.println("Primeira opção satisfeita");
+        }   else {
+            System.out.println("Segunda opção satisfeita");
+        }
     }
 }
