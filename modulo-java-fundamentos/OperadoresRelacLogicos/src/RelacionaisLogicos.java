@@ -47,5 +47,26 @@ public class RelacionaisLogicos {
         }   else {
             System.out.println("Segunda opção satisfeita");
         }
+
+        //Estrutura condicional
+        num1 = 5;
+        num2 = 10;
+        if (num1 > num2) {
+            System.out.println("O numero 1 é maior que o numero 2");
+        }   else if  (num1 < num2 ){
+            System.out.println("O numero 1 é menor que o numero 2");
+        }   else{
+            System.out.println("O numero 1 é igual o numero 2");
+        }
+
+        num1 = 5;
+        num2 = 5;
+        if (num1 > num2) {
+            System.out.println("O numero 1 é maior que o numero 2");
+        }   else if  (num1 < num2 ){
+            System.out.println("O numero 1 é menor que o numero 2");
+        }   else{
+            System.out.println("O numero 1 é igual o numero 2");
+        }
     }
 }
