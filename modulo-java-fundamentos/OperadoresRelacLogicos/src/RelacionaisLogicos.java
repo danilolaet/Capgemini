@@ -68,5 +68,34 @@ public class RelacionaisLogicos {
         }   else{
             System.out.println("O numero 1 é igual o numero 2");
         }
+
+        //Comando switch
+        char opcao = '3';
+        switch (opcao){
+            case '1': {
+                System.out.println("Chame o programa de Inclusão");
+                break;
+            }
+
+            case '2': {
+                System.out.println("Chame o programa de Alteração");
+                break;
+            }
+
+            case '3': {
+                System.out.println("Chame o programa de Exclusão");
+                break;
+            }
+
+            case '4': {
+                System.out.println("Chame o programa de Consulta");
+                break;
+            }
+
+            default: {
+                System.out.println("Opção inválida");
+                break;
+            }
+        }
     }
 }
