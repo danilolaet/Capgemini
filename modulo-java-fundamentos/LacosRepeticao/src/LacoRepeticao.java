@@ -7,6 +7,14 @@ public class LacoRepeticao {
             QuantVezes++;
         }
             System.out.println("Saí do laço e executei " + (QuantVezes -1) + " vezes");
+
+        QuantVezes = 11;
+        do {
+            System.out.println("Estou fazendo a " + QuantVezes + "ª vez");
+            QuantVezes++;
+        }
+        while (QuantVezes <= 10);
+        System.out.println("Saí do laço e executei " + (QuantVezes -1) + " vezes");
         }
     }
 
